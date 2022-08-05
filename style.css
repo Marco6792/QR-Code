@@ -1,0 +1,68 @@
+body{
+ height: 100vh;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+ background-color:hsl(212, 45%, 89%);
+ margin-left: auto;
+ margin-right: auto;
+ height: 800px;
+}
+
+.image-container {
+ padding: 100px 20px ;
+background-color:  hsl(0, 0%, 100%);
+ width: 230px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 145px;
+ padding-top: 28px;
+ height: 330px;
+ border-radius: 14px;
+}
+.image{
+ background-image: url("qr-code.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ border-radius: 11px;
+margin-top: 0;
+padding-top: 0;
+ height: 220px;
+ margin-left: auto;
+ margin-right: auto;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+}
+p{
+ font-size: 15px;
+ font-weight: 600;
+ color: hsl(220, 15%, 55%);
+}
+h4{
+ color:hsl(218, 44%, 22%);
+ font-weight: 700;
+}
+@media screen and (min-width: 700px){
+ .container{
+  width: 1440px;
+ }
+}
+@media screen and (max-width:500px){
+ .container{
+  width: 400px;
+ }
+}
+button{
+ background-color: rgb(33, 92, 219);
+ border: none;
+ outline: none;
+ padding: 9px 12px;
+ color: white;
+ font-weight: 600;
+ border-radius: 7px;
+ cursor: pointer;
+}
